@@ -66,7 +66,7 @@ body a:hover{
     font-size: 1.7em;
     display: block;
     font-family: 'Marvel-Bold';
-    color: #FFF;
+    color: rgb(240, 40, 40);
     line-height: 0.9em;
 }
 .home-social {
@@ -79,17 +79,18 @@ body a:hover{
     margin-right: 22px;
 }
 .home-social ul li a {
-    background: url(../images/i1.png)no-repeat 0px 0px;
+    /*background: url(../images/i1.png)no-repeat 0px 0px;*/
+    color: #fff;
     display: block;
     width: 25px;
     height: 25px;
     transition: none;
 }
-.home-social ul li a.fb1 {
-    background: url(../images/i2.png)no-repeat 0px 0px;
+.home-social ul li a.fa-instagram {
+    
 }
-.home-social ul li a.be1 {
-    background: url(../images/i3.png)no-repeat 0px 0px;
+.home-social ul li a.fa-facebook-f {
+    
 }
 .home-social ul li a.gg1 {
     background: url(../images/i4.png)no-repeat 0px 0px;
@@ -108,9 +109,9 @@ body a:hover{
 	-ms-transition: 0.5s all ease;
 }
 .bnr-text {
-    text-align: center;
-    margin: 12em auto 0;
-    background-color: rgba(0, 0, 0, 0.54);
+    text-align: left;
+    margin: 3em 3em 0;
+    /*background-color: rgba(0, 0, 0, 0.54);*/
     padding: 3em 0 5em;
     width: 50%;
 }
@@ -721,7 +722,7 @@ h3.title {
     font-size: 3em;
 }
 .bnr-text {
-    margin: 9em auto 0;
+    margin: 3em 3em 0;
     padding: 2em 0 5em;
     width: 55%;
 }
