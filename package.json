@@ -1,0 +1,22 @@
+{
+  "name": "gise-web",
+  "version": "1.0.0",
+  "description": "landing",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://gentilmente@github.com/gentilmente/gise-web.git"
+  },
+  "keywords": [
+    "landing"
+  ],
+  "author": "gentilmente",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/gentilmente/gise-web/issues"
+  },
+  "homepage": "https://github.com/gentilmente/gise-web#readme"
+}
