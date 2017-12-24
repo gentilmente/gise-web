@@ -111,11 +111,6 @@ body a:hover {
     transition: none;
 }
 
-.home-social ul li a.gg1 {
-    background: url(../images/i4.png)no-repeat 0px 0px;
-    width: 27px;
-}
-
 .home-social ul li a:hover {
     transform: rotatey(360deg);
     -webkit-transform: rotatey(360deg);
@@ -161,8 +156,7 @@ a.more {
     border: 3px solid #fff;
     padding: 1em 3em;
 }
-
-/*---- Navigation ---*/
+/*--//header--*/
 
 
 /*--gallery--*/
@@ -198,7 +192,6 @@ a.more {
 .gallery-grids-info.glry-btm p {
     width: 81%;
 }
-
 
 /*--//gallery--*/
 
@@ -284,11 +277,9 @@ a.more {
     -o-transition: 0.5s all;
 }
 
-
 /*-- //contact --*/
 
-
-/*---start-footer-----*/
+/*---footer-----*/
 
 .footer {
     background: #3a3a3a;
@@ -347,7 +338,7 @@ a.more {
     -webkit-transition: 0.5s ease;
     text-transform: lowercase;
 }
-
+/*---//footer-----*/
 
 /*---start-copy-right-----*/
 
@@ -508,7 +499,7 @@ a.more {
     }
     .gallery-grids-info.glry-btm {
         float: left;
-        width: 33.33%;
+        width: 32%;
     }
     .contact-top-left {
         float: left;
@@ -581,10 +572,6 @@ a.more {
     .servc-grids:nth-child(3) {
         margin: 3em 0;
     }
-    .gallery-grids-info {
-        float: none;
-        width: 100%;
-    }
     .gallery-grids-info.glry-left {
         width: 58.25%;
     }
@@ -594,9 +581,15 @@ a.more {
     .gallery-grids-info.glry-right p {
         width: 88%;
     }
+    /*
+                                            .gallery-grids-info {
+                                                float: none;
+                                                width: 100%;
+                                            }
     .gallery-grids-info.glry-btm p {
         width: 95%;
     }
+    */
     .servc-grid-left {
         text-align: right;
     }
@@ -685,15 +678,11 @@ a.more {
     .servc-grids:nth-child(3) {
         margin: 0;
     }
-    .gallery-grids-info.glry-left {
-        width: 100%;
-    }
-    .gallery-grids-info.glry-right {
-        width: 100%;
-    }
+    
     .gallery-grids-info.glry-btm {
-        width: 100%;
+        width: 50%;
     }
+    
     .gallery-grids-info.glry-right p,
     .gallery-grids-info.glry-btm p {
         width: 66%;
