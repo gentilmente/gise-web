@@ -162,63 +162,8 @@ a.more {
     padding: 1em 3em;
 }
 
-
-/*--top-nav--*/
-
-.top-nav {
-    text-align: center;
-    background-color: #70c291;
-    padding: 1.5em 0;
-}
-
-nav.navbar.navbar-default {
-    background-color: inherit;
-    border: none;
-    margin: 0;
-}
-
-.top-nav ul li {
-    margin: 0 2.2em;
-}
-
-.navbar-default .navbar-nav>li>a:hover,
-.navbar-default .navbar-nav>li>a:focus {
-    color: #377952;
-}
-
-
-/* Effect 11: text fill based on Lea Verou's animation http://dabblet.com/gist/6046779 */
-
-.top-nav ul li a {
-    text-decoration: none;
-    letter-spacing: 1px;
-    font-size: 1.3em;
-}
-
-.top-nav ul li a:hover,
-.top-nav ul li a:focus {
-    outline: none;
-}
-
-.cl-effect-15 a::before {
-    color: #fff;
-    content: attr(data-hover);
-    position: absolute;
-    -webkit-transition: -webkit-transform 0.3s, opacity 0.3s;
-    -moz-transition: -moz-transform 0.3s, opacity 0.3s;
-    transition: transform 0.3s, opacity 0.3s;
-}
-
-.cl-effect-15 a:hover::before,
-.cl-effect-15 a:focus::before {
-    -webkit-transform: scale(0.9);
-    -moz-transform: scale(0.9);
-    transform: scale(0.9);
-    opacity: 0;
-}
-
-
 /*---- Navigation ---*/
+
 
 /*--gallery--*/
 
@@ -253,6 +198,8 @@ nav.navbar.navbar-default {
 .gallery-grids-info.glry-btm p {
     width: 81%;
 }
+
+
 /*--//gallery--*/
 
 
@@ -483,9 +430,7 @@ nav.navbar.navbar-default {
     .contact {
         padding: 4em 0;
     }
-    .top-nav ul li {
-        margin: 0 1.3em;
-    }
+
     h3.title {
         font-size: 3.5em;
         margin-bottom: 0.8em;
@@ -512,18 +457,9 @@ nav.navbar.navbar-default {
     }
 }
 
-@media(max-width:1024px) {
-    .top-nav ul li {
-        margin: 0 1.4em;
-    }
-}
-
 @media(max-width:991px) {
     .banner {
         min-height: 550px;
-    }
-    .top-nav ul li {
-        margin: 0 .32em;
     }
     .bnr-text h2 {
         font-size: 3em;
@@ -619,21 +555,6 @@ nav.navbar.navbar-default {
 }
 
 @media(max-width:640px) {
-    button.navbar-toggle.collapsed,
-    button.navbar-toggle {
-        border: none;
-        background-color: inherit;
-        color: #fff;
-        font-size: 1.6em;
-        float: none;
-        width: 100%;
-        margin: 0;
-        padding: 0.6em 0;
-    }
-    .navbar-default .navbar-toggle:hover,
-    .navbar-default .navbar-toggle:focus {
-        background-color: inherit;
-    }
     .home-social ul li {
         margin-right: 18px;
     }
@@ -642,15 +563,6 @@ nav.navbar.navbar-default {
     }
     .bnr-text h4 {
         font-size: 1.6em;
-    }
-    .top-nav ul li a {
-        display: inline-block;
-        padding: 0.8em 0;
-        font-size: 1.2em;
-        margin: 0;
-    }
-    .top-nav {
-        padding: 0;
     }
     h3.title {
         font-size: 2.2em;
@@ -817,10 +729,6 @@ nav.navbar.navbar-default {
         font-size: 1.3em;
         padding: 0;
     }
-    .top-nav ul li a {
-        padding: 0.6em 0;
-        font-size: 1.1em;
-    }
     .home-social {
         margin: 0.9em 0 0;
     }
@@ -842,11 +750,6 @@ nav.navbar.navbar-default {
     }
     a.more {
         font-size: 0.9em;
-    }
-    button.navbar-toggle.collapsed,
-    button.navbar-toggle {
-        padding: 0.5em 0;
-        font-size: 1.5em;
     }
     .gallery,
     .contact {
@@ -872,7 +775,6 @@ nav.navbar.navbar-default {
     .gallery-grids-info.glry-btm p {
         width: 84%;
     }
-
     .contact-textarea input[type="text"] {
         font-size: .9em;
         padding: 9px 16px;
