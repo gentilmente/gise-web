@@ -490,9 +490,6 @@ nav.navbar.navbar-default {
         font-size: 3.5em;
         margin-bottom: 0.8em;
     }
-    .event {
-        padding: 4em 0 0;
-    }
     .servc-grid-right {
         padding: 0;
     }
@@ -576,34 +573,6 @@ nav.navbar.navbar-default {
     .gallery-grids-info.glry-btm {
         float: left;
         width: 33.33%;
-    }
-    .event {
-        padding: 3em 0 0;
-    }
-    .event-grid {
-        float: left;
-        width: 50%;
-        padding: 0;
-    }
-    .event-grid-left {
-        float: left;
-        width: 50%;
-    }
-    .event-grid-right {
-        float: right;
-        width: 50%;
-        padding: 0 0.5em;
-    }
-    .evnt-grd-left p {
-        font-size: 1.3em;
-    }
-    .evnt-grd-left p span {
-        font-size: 17px;
-        line-height: 19px;
-    }
-    .evnt-grd-right p {
-        margin: 1em 0 1em;
-        width: 100%;
     }
     .contact-top-left {
         float: left;
@@ -722,19 +691,6 @@ nav.navbar.navbar-default {
     .servc-grid-left span.glyphicon {
         font-size: 2.3em;
     }
-    .evnt-grd-right p {
-        font-size: 0.9em;
-    }
-    .event-grid-right {
-        padding-right: 0;
-    }
-
-    .event {
-        padding: 2em 0 0;
-    }
-    .event-grids:nth-child(2) {
-        margin: 2em 0;
-    }
     .contact-textarea input[type="text"] {
         font-size: .9em;
         padding: 11px 16px;
@@ -830,15 +786,6 @@ nav.navbar.navbar-default {
     .gallery-grids-info.glry-btm p {
         width: 66%;
     }
-
-    .event-grid {
-        float: none;
-        width: 100%;
-        margin-top: 2em;
-    }
-    .event-grids:nth-child(2) {
-        margin: 0;
-    }
     .contact-top-left {
         float: none;
         width: 100%;
@@ -925,36 +872,7 @@ nav.navbar.navbar-default {
     .gallery-grids-info.glry-btm p {
         width: 84%;
     }
-    .event {
-        padding: 1.5em 0 0;
-    }
-    .event-grid {
-        margin-top: 1em;
-    }
-    .event-grid-left {
-        width: 50%;
-        padding: 0;
-    }
-    .event-grid-left img {
-        padding: 0.2em;
-    }
-    .event-grid-right {
-        width: 44%;
-        padding: 0;
-    }
-    .evnt-grd-left p {
-        font-size: 1.1em;
-        padding: .3em 0;
-        width: 100%;
-    }
-    .evnt-grd-right p {
-        margin: 0.5em 0 1em;
-    }
-    .evnt-grd-left p span {
-        font-size: 15px;
-        display: inline-block;
-        margin-left: 8px;
-    }
+
     .contact-textarea input[type="text"] {
         font-size: .9em;
         padding: 9px 16px;
