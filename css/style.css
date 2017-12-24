@@ -220,79 +220,6 @@ nav.navbar.navbar-default {
 
 /*---- Navigation ---*/
 
-/*-- slid--*/
-
-.slid {
-    background: url(../images/slid.jpg) no-repeat 0px 116px fixed;
-    background-size: cover;
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-    -ms-background-size: cover;
-    min-height: 300px;
-}
-
-.slid-grids {
-    padding: 1.5em 2em;
-    background: #3A3A3A;
-    margin-top: 7.5em;
-}
-
-.slid-left {
-    float: left;
-    width: 26%;
-}
-
-.slid-left p {
-    font-size: 1.8em;
-    color: #70c291;
-    margin: 6px 0 0;
-    text-align: center;
-}
-
-.slid-right {
-    float: left;
-    margin-left: 1em;
-    width: 72%;
-}
-
-.slid-right input[type="text"] {
-    outline: none;
-    color: #BBB;
-    font-size: 14px;
-    width: 75%;
-    padding: 13px 10px;
-    background: #fff;
-    border: 1px solid #fff;
-    -webkit-appearance: none;
-}
-
-.slid-right input[type="submit"] {
-    background: #70c291;
-    width: 20%;
-    color: #fff;
-    font-size: 15px;
-    padding: 13px 0;
-    border: none;
-    outline: none;
-    margin: 0 0 0 2em;
-    transition: .5s all;
-    -webkit-transition: .5s all;
-    -moz-transition: .5s all;
-    -o-transition: .5s all;
-    -ms-transition: .5s all;
-    -webkit-appearance: none;
-}
-
-.slid-right input[type="submit"]:hover {
-    background: #fff;
-    color: #70c291;
-}
-
-
-/*--//slid--*/
-
-
 /*--gallery--*/
 
 .gallery {
@@ -323,25 +250,9 @@ nav.navbar.navbar-default {
     display: block;
 }
 
-.gallery a .captn {
-    position: absolute;
-    height: 100%;
-    width: 50%;
-    top: 0;
-    left: 0;
-    text-align: center;
-    -o-transition: all 0.3s ease;
-    -moz-transition: all 0.3s ease;
-    -ms-transition: all 0.3s ease;
-    -webkit-transition: all 0.3s ease;
-    transition: all 0.3s ease;
-}
-
 .gallery-grids-info.glry-btm p {
     width: 81%;
 }
-
-
 /*--//gallery--*/
 
 
@@ -591,13 +502,6 @@ nav.navbar.navbar-default {
     .bnr-text h4 {
         font-size: 1.8em;
     }
-    .slid-right {
-        width: 79%;
-    }
-    .slid-left {
-        width: 18%;
-    }
-
     .gallery-grids-info.glry-right p {
         width: 100%;
     }
@@ -672,22 +576,6 @@ nav.navbar.navbar-default {
     .gallery-grids-info.glry-btm {
         float: left;
         width: 33.33%;
-    }
-    .slid {
-        min-height: 200px;
-    }
-    .slid-grids {
-        margin-top: 4em;
-    }
-    .slid-left p {
-        font-size: 1.7em;
-    }
-    .slid-right input[type="text"] {
-        width: 73%;
-    }
-    .slid-right input[type="submit"] {
-        width: 25%;
-        margin: 0;
     }
     .event {
         padding: 3em 0 0;
@@ -840,19 +728,7 @@ nav.navbar.navbar-default {
     .event-grid-right {
         padding-right: 0;
     }
-    .slid-right input[type="text"] {
-        width: 76%;
-    }
-    .slid-right input[type="submit"] {
-        width: 23%;
-        float: right;
-    }
-    .slid-right {
-        width: 75%;
-    }
-    .slid-left {
-        width: 22%;
-    }
+
     .event {
         padding: 2em 0 0;
     }
@@ -954,28 +830,7 @@ nav.navbar.navbar-default {
     .gallery-grids-info.glry-btm p {
         width: 66%;
     }
-    .slid-left {
-        width: 100%;
-        margin-bottom: 0.5em;
-    }
-    .slid-right {
-        width: 100%;
-        margin: 0;
-    }
-    .slid-right input[type="submit"] {
-        width: 27%;
-        float: right;
-        padding: 10px 0;
-        font-size: 14px;
-    }
-    .slid-right input[type="text"] {
-        width: 69%;
-        padding: 9px 10px;
-    }
-    .slid-grids {
-        margin-top: 3em;
-        padding: 0.5em 2em 1.5em;
-    }
+
     .event-grid {
         float: none;
         width: 100%;
@@ -1069,28 +924,6 @@ nav.navbar.navbar-default {
     .gallery-grids-info.glry-right p,
     .gallery-grids-info.glry-btm p {
         width: 84%;
-    }
-    .slid {
-        min-height: 180px;
-        background-position: 0px 0px;
-    }
-    .slid-grids {
-        padding: 0.5em 1em 1em;
-        margin-top: 3.5em;
-    }
-    .slid-left p {
-        font-size: 1.5em;
-        margin: 0;
-    }
-    .slid-right input[type="text"] {
-        width: 71%;
-        padding: 6px 10px;
-        font-size: 13px;
-    }
-    .slid-right input[type="submit"] {
-        width: 29%;
-        padding: 7px 0;
-        font-size: 13px;
     }
     .event {
         padding: 1.5em 0 0;
