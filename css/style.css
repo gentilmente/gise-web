@@ -156,6 +156,8 @@ a.more {
     border: 3px solid #fff;
     padding: 1em 3em;
 }
+
+
 /*--//header--*/
 
 
@@ -192,6 +194,7 @@ a.more {
 .gallery-grids-info.glry-btm p {
     width: 81%;
 }
+
 
 /*--//gallery--*/
 
@@ -277,7 +280,9 @@ a.more {
     -o-transition: 0.5s all;
 }
 
+
 /*-- //contact --*/
+
 
 /*---footer-----*/
 
@@ -338,7 +343,10 @@ a.more {
     -webkit-transition: 0.5s ease;
     text-transform: lowercase;
 }
+
+
 /*---//footer-----*/
+
 
 /*---start-copy-right-----*/
 
@@ -421,7 +429,6 @@ a.more {
     .contact {
         padding: 4em 0;
     }
-
     h3.title {
         font-size: 3.5em;
         margin-bottom: 0.8em;
@@ -678,11 +685,9 @@ a.more {
     .servc-grids:nth-child(3) {
         margin: 0;
     }
-    
     .gallery-grids-info.glry-btm {
         width: 50%;
     }
-    
     .gallery-grids-info.glry-right p,
     .gallery-grids-info.glry-btm p {
         width: 66%;
