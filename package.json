@@ -18,5 +18,8 @@
   "bugs": {
     "url": "https://github.com/gentilmente/gise-web/issues"
   },
-  "homepage": "https://github.com/gentilmente/gise-web#readme"
+  "homepage": "https://github.com/gentilmente/gise-web#readme",
+  "dependencies": {
+    "jquery": "^3.2.1"
+  }
 }
