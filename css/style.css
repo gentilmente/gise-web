@@ -86,7 +86,7 @@ body a:hover {
 .navbar-brand h1 a {
     font-size: 1.7em;
     display: block;
-    font-family: 'Dancing Script', cursive;
+    font-family: 'Engagement', cursive;
     color: rgb(252, 252, 252);
     line-height: 0.9em;
 }
@@ -103,7 +103,6 @@ body a:hover {
 }
 
 .home-social ul li a {
-    /*background: url(../images/i1.png)no-repeat 0px 0px;*/
     color: #fff;
     display: block;
     width: 25px;
