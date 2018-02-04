@@ -641,17 +641,19 @@ a.more {
     }
     .banner {
         min-height: 425px;
+        background-position: -120px 0px;
     }
     .bnr-text {
-        padding: 1.5em 0 2em;
-        width: 79%;
-        margin: 7em auto 0;
+        padding: 0em;
+        width: 60%;
+        margin: 14em 1em 0em 2em ;
     }
     .bnr-text h2 {
         font-size: 2.2em;
     }
     .bnr-text h4 {
-        font-size: 1.3em;
+        
+        font-size: 2.4em;
     }
     a.more {
         padding: 0.6em 1.2em;
