@@ -709,7 +709,7 @@ a.more {
 @media(max-width:320px) {
     .banner {
         min-height: 350px;
-        background-position: -20px 0px;
+        background-position: -120px 0px;
     }
     .navbar-brand h1 a {
         font-size: 1.3em;
@@ -724,15 +724,17 @@ a.more {
     .home-social ul li:nth-child(4) {
         margin-right: 0;
     }
+    .bnr-text {
+        width: 92%;
+        padding: 0em;
+        margin: 18em auto 0;
+    }
     .bnr-text h2 {
         font-size: 1.8em;
     }
     .bnr-text h4 {
-        font-size: 1em;
-    }
-    .bnr-text {
-        width: 92%;
-        margin: 5.5em auto 0;
+        font-size: 1.8em;
+        margin: auto ;
     }
     a.more {
         font-size: 0.9em;
