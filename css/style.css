@@ -1,21 +1,14 @@
+@font-face {
+    font-family: 'Dancing';
+    src: url("../fonts/DancingScript-Regular.ttf")
+}
+@font-face {
+    font-family: 'Overlock';
+    src: url("../fonts/Overlock-Regular.ttf")
+}
 body {
     margin: 0;
-    font-family: 'Roboto-Regular';
-}
-
-@font-face {
-    font-family: 'Roboto-Regular';
-    src: url(../fonts/Roboto-Regular.ttf) format('truetype');
-}
-
-@font-face {
-    font-family: 'Marvel-Regular';
-    src: url(../fonts/Marvel-Regular.ttf) format('truetype');
-}
-
-@font-face {
-    font-family: 'Marvel-Bold';
-    src: url(../fonts/Marvel-Bold.ttf) format('truetype');
+    font-family: 'Overlock';
 }
 
 body a {
@@ -109,21 +102,14 @@ body a:hover {
 .bnr-text h2 {
     font-size: 3em;
     color: #fff;
-    font-family: 'Dancing Script', cursive;
-    /*
-    font-family: 'Courgette', cursive;
-
-    font-family: 'Zeyada', cursive;
-
-    font-family: 'Engagement', cursive;
-*/
+    font-family: 'Dancing', cursive;
 }
 
 .bnr-text h4 {
     font-size: 3em;
     color: #fff;
     margin: 1em 0 1.5em;
-    font-family: 'Dancing Script', cursive;
+    font-family: 'Dancing', cursive;
 }
 
 a.more {
@@ -330,6 +316,7 @@ a.more {
         padding: 4em 0;
     }
     h3.title {
+        font-family: 'Overlock', regular;
         font-size: 3.5em;
         margin-bottom: 0.8em;
     }
