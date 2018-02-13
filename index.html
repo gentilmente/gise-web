@@ -323,6 +323,28 @@
               <input type="reset" value="Cancelar">
             </form>
           </div>
+
+          <div class="cform" id="contact-form">
+            <form method="post" role="form" class="contactForm">
+              <div class="form-group">
+
+                <input type="text" name="from_name" class="form-control" id="name" placeholder="Nombre" data-rule="maxlen:3" data-msg="Por favor ingrese al menos 3 letras"
+                />
+                <div class="validation"></div>
+              </div>
+
+              <div class="form-group">
+                <input type="email" class="form-control" name="client_email" id="email" placeholder="Email" data-rule="email" data-msg="Por favor ingrese un email válido"
+                />
+                <div class="validation"></div>
+              </div>
+
+            </form>
+            <div id="captcha_container"></div>
+            <span id="captcha" style="margin-left:100px;color:red"></span>
+            <div id="successmsg">Mensaje enviado con éxito. ¡Gracias!</div>
+          </div>
+          ce
           <div class="clearfix"></div>
         </div>
       </div>
@@ -374,13 +396,34 @@
   <script type="text/javascript">
     jQuery(document).ready(function ($) {
       $('.slider').unslider({
-
         autoplay: true,
         arrows: false
       });
     });
   </script>
   <script async defer src="//platform.instagram.com/en_US/embeds.js"></script>
+  <script src="js/sendmail.js"></script>
+  <script src="js/validate.js"></script>
+  <script type='text/javascript'>
+    var captchaContainer = null;
+    var captcha = document.getElementById("captcha");
+
+    var loadCaptcha = function () {
+      captchaContainer = grecaptcha.render('captcha_container', {
+        'sitekey': '6LfbfRMTAAAAABHo0OExtEB6ldHHv-Xgff0XTR1E',
+        'callback': function (response) {
+          captcha.innerHTML =
+            "<button id='send-button' onCLick= 'submit()' type='submit' class='btn btn-theme pull-left'>Enviar mensaje</button>";
+        }
+      });
+    };
+
+    function submit() {
+      $('form.contactForm').submit();
+    }
+  </script>
+  <script src="https://www.google.com/recaptcha/api.js?onload=loadCaptcha&render=explicit" async defer></script>
+
   <!-- //js -->
 
 </body>
