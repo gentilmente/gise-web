@@ -293,6 +293,7 @@
       <div class="contact-main">
         <h3 class="title">Contacto</h3>
         <div class="contact-top">
+          <!--
           <div class="contact-textarea">
             <form>
               <input type="text" value="Nombre" onfocus="this.value = '';" onblur="if (this.value == '') {this.value = 'Nombre';}" />
@@ -302,7 +303,9 @@
               <input type="reset" value="Cancelar">
             </form>
           </div>
-          <!--
+        -->
+
+          <!-- captcha -->
           <div class="cform" id="contact-form">
             <form method="post" role="form" class="contactForm">
               <div class="form-group">
@@ -323,7 +326,7 @@
             <span id="captcha" style="margin-left:100px;color:red"></span>
             <div id="successmsg">Mensaje enviado con éxito. ¡Gracias!</div>
           </div>
-        -->
+          -->
           <div class="clearfix"></div>
         </div>
       </div>
@@ -413,14 +416,15 @@
   <script src="js/sendmail.js"></script>
   <script src="js/validate.js"></script>
 
-  <!-- captcha ->
+  <!-- captcha -->
+  <script defer src="https://www.google.com/recaptcha/api.js?onload=loadCaptcha&render=explicit"></script>
   <script type='text/javascript'>
     var captchaContainer = null;
     var captcha = document.getElementById("captcha");
 
     var loadCaptcha = function () {
       captchaContainer = grecaptcha.render('captcha_container', {
-        'sitekey': '6LfbfRMTAAAAABHo0OExtEB6ldHHv-Xgff0XTR1E',
+        'sitekey': '6LcYjkYUAAAAAMTDfGPRepnjJK75hAkmU4xjMH4b',
         'callback': function (response) {
           captcha.innerHTML =
             "<button id='send-button' onCLick= 'submit()' type='submit' class='btn btn-theme pull-left'>Enviar mensaje</button>";
@@ -432,7 +436,6 @@
       $('form.contactForm').submit();
     }
   </script>
-  <script src="https://www.google.com/recaptcha/api.js?onload=loadCaptcha&render=explicit"></script>
   <!-- //captcha -->
 
   <!-- //js -->
