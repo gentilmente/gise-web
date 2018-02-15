@@ -234,6 +234,19 @@ a.more {
     -o-transition: 0.5s all;
 }
 
+#successmsg, #errormsg  {
+	border:1px solid #fff;
+	display:none;
+	text-align:center;
+	padding:15px 12px 15px;
+	margin:10px 0;
+	font-weight:600;
+	margin-bottom:30px;
+}
+
+#successmsg.show,.show  {
+	display:block;
+}
 /*-- //contact --*/
 
 /*----copy-right----*/

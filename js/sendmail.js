@@ -1,5 +1,5 @@
 function onSuccess(form) {
-  emailjs.sendForm('default_service', 'primer_contacto', form).then(
+  emailjs.sendForm('volare_gmail', 'primer_contacto_volare', form).then(
     function () {
       $("#successmsg").addClass("show");
       $('#send-button').prop('disabled', true);
