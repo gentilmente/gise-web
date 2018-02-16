@@ -2,10 +2,12 @@
     font-family: 'Dancing';
     src: url("../fonts/DancingScript-Regular.ttf")
 }
+
 @font-face {
     font-family: 'Overlock';
     src: url("../fonts/Overlock-Regular.ttf")
 }
+
 body {
     margin: 0;
     font-family: 'Overlock';
@@ -172,7 +174,8 @@ a.more {
     border: 0;
 }
 
-.contact-textarea input[type="text"] {
+.contact-textarea input[type="text"],
+.contact-textarea input[type="email"] {
     width: 100%;
     color: rgba(137, 136, 136, 0.66);
     outline: none;
@@ -234,19 +237,22 @@ a.more {
     -o-transition: 0.5s all;
 }
 
-#successmsg, #errormsg  {
-	border:1px solid #fff;
-	display:none;
-	text-align:center;
-	padding:15px 12px 15px;
-	margin:10px 0;
-	font-weight:600;
-	margin-bottom:30px;
+#successmsg,
+#errormsg {
+    border: 1px solid #fff;
+    display: none;
+    text-align: center;
+    padding: 15px 12px 15px;
+    margin: 10px 0;
+    font-weight: 600;
+    margin-bottom: 30px;
 }
 
-#successmsg.show,.show  {
-	display:block;
+#successmsg.show,
+.show {
+    display: block;
 }
+
 /*-- //contact --*/
 
 /*----copy-right----*/
@@ -478,7 +484,6 @@ a.more {
     .home-social ul li {
         margin-right: 12px;
     }
-
     .banner {
         min-height: 425px;
         background-position: -120px 0px;

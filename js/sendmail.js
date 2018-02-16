@@ -5,7 +5,7 @@ function onSuccess(form) {
       $('#send-button').prop('disabled', true);
     },
     function (error) {
-      alert('Hubo un error al enviar el mail.');
+      alert('Hubo un error al enviar el mail. Inténtalo nuevamente.');
       console.log("FAILED. error=", error);
     });
   return false;

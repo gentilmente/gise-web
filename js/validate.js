@@ -9,6 +9,34 @@ jQuery(document).ready(function ($) {
       ferror = false,
       emailExp = /^[^\s()<>@,;:\/]+@\w[\w\.-]+\.[a-z]{2,}$/i;
 
+
+
+    // solo para checkear el textarea
+    //buscar mejor alternativa
+
+    f.children('textarea').each(function () { // run all inputs
+      var i = $(this), //current input
+        rule = i.attr('data-rule');
+
+      if (rule !== undefined) {
+        var ierror = false,
+          pos = rule.indexOf(':', 0); // error flag for current input
+        if (pos >= 0) {
+          var exp = rule.substr(pos + 1, rule.length);
+          rule = rule.substr(0, pos);
+        } else {
+          rule = rule.substr(pos + 1, rule.length);
+        }
+        if (i.val() === 'Mensajes') {
+          ferror = ierror = true;
+        }
+        i.next('.validation').html((
+          ierror ? (i.attr('data-msg') !== undefined ? i.attr('data-msg') : 'wrong Input') : ''
+        )).show('blind');
+      }
+    });
+    //--------------
+
     f.children('input').each(function () { // run all inputs
       var i = $(this), //current input
         rule = i.attr('data-rule');
@@ -25,7 +53,7 @@ jQuery(document).ready(function ($) {
 
         switch (rule) {
           case 'required':
-            if (i.val() === '') {
+            if (i.val() === 'Mensajes') {
               ferror = ierror = true;
             }
             break;
