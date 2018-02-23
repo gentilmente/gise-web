@@ -413,9 +413,6 @@ a.more {
 }
 
 @media(max-width:640px) {
-    .home-social ul li {
-        margin-right: 18px;
-    }
     .bnr-text h2 {
         font-size: 2.8em;
     }
@@ -481,9 +478,6 @@ a.more {
 }
 
 @media(max-width:480px) {
-    .home-social ul li {
-        margin-right: 12px;
-    }
     .banner {
         min-height: 425px;
         background-position: -120px 0px;
@@ -543,15 +537,6 @@ a.more {
         min-height: 350px;
         background-position: -120px 0px;
     }
-    .home-social {
-        margin: 0.9em 0 0;
-    }
-    .home-social ul li {
-        margin-right: 10px;
-    }
-    .home-social ul li:nth-child(4) {
-        margin-right: 0;
-    }
     .bnr-text {
         width: 92%;
         padding: 0em;
@@ -590,8 +575,10 @@ a.more {
         min-height: 10em;
         padding: 11px 16px;
     }
+    .home-social {
+        margin: 0.9em 0 0;
+    }
     .home-social ul li a {
-        width: 17px;
         height: 22px;
         background-size: 118%;
     }
