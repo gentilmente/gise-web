@@ -24,13 +24,18 @@
         <div class="home-social">
           <ul>
             <li>
-              <a href="https://www.facebook.com/Volare-Indumentaria-Para-Entrenar-170668123303322/" target="_blank">
+              <a href="fb://Volare-Indumentaria-Para-Entrenar-170668123303322/" target="_blank">
                 <i class="fab fa-facebook-f fa-2x"></i>
               </a>
             </li>
             <li>
               <a href="https://www.instagram.com/volareindumentaria/" target="_blank">
                 <i class="fab fa-instagram fa-2x"></i>
+              </a>
+            </li>
+            <li>
+              <a href="mailto:info@volareindumentaria.com.ar?Subject=Desde%20website" target="_blank">
+                <i class="far fa-envelope fa-2x"></i>
               </a>
             </li>
           </ul>
@@ -293,10 +298,7 @@
       <div class="contact-main">
         <h3 class="title">Contacto</h3>
         <div class="contact-top">
-
           <div class="contact-textarea">
-
-            <!-- captcha -->
 
             <form method="post" role="form" class="contactForm">
 
@@ -415,6 +417,7 @@
   <script src="js/sendmail.js"></script>
   <script src="js/validate.js"></script>
 
+
   <!-- captcha -->
   <script defer src="https://www.google.com/recaptcha/api.js?onload=loadCaptcha&render=explicit"></script>
   <script type='text/javascript'>
@@ -426,7 +429,8 @@
         'sitekey': '6LcYjkYUAAAAAMTDfGPRepnjJK75hAkmU4xjMH4b',
         'callback': function (response) {
           captcha.innerHTML =
-            "<input type='submit' id='send-button' onCLick= 'submit()' value='Enviar'>";
+            "<button id ='send-button' type='button' onCLick= 'submit()'>Enviar </button>";
+          //"<input type='submit' id='send-button' onCLick= 'submit()' value='Enviar'>";
         }
       });
     };

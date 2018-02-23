@@ -210,7 +210,7 @@ a.more {
     -ms-border-radius: 5px;
 }
 
-.contact-textarea input[type="submit"],
+.contact-textarea button[type="button"],
 .contact-textarea input[type="reset"] {
     border: none;
     outline: none;
@@ -227,7 +227,7 @@ a.more {
     -ms-border-radius: 5px;
 }
 
-.contact-textarea input[type="submit"]:hover,
+.contact-textarea button[type="button"]:hover,
 .contact-textarea input[type="reset"]:hover {
     background: #70C291;
     transition: 0.5s all;
@@ -343,7 +343,7 @@ a.more {
     .gallery-grids-info.glry-right p {
         width: 100%;
     }
-    .contact-textarea input[type="submit"],
+    .contact-textarea button[type="button"],
     .contact-textarea input[type="reset"] {
         width: 47.7%;
     }
@@ -395,7 +395,7 @@ a.more {
         width: 50%;
         padding-right: 0;
     }
-    .contact-textarea input[type="submit"],
+    .contact-textarea button[type="button"],
     .contact-textarea input[type="reset"] {
         font-size: 15px;
         margin: 10px 2px 0 3px;
@@ -466,12 +466,12 @@ a.more {
         min-height: 13em;
         padding: 11px 16px;
     }
-    .contact-textarea input[type="submit"],
+    .contact-textarea button[type="button"],
     .contact-textarea input[type="reset"] {
         font-size: 13px;
         padding: 10px 31px;
     }
-    .contact-textarea input[type="submit"],
+    .contact-textarea button[type="button"],
     .contact-textarea input[type="reset"] {
         width: 47%;
     }
