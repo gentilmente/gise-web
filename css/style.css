@@ -68,20 +68,16 @@ body a:hover {
     margin: 1em 0;
 }
 
-.home-social ul li {
+.home-social ul li, a {
     display: inline-block;
-    margin-right: 22px;
-}
-
-.home-social ul li a {
+    margin-right: 25px;
     color: #fff;
-    display: block;
     width: 25px;
     height: 25px;
     transition: none;
 }
 
-.home-social ul li a:hover {
+.home-social ul li:hover {
     transform: rotatey(360deg);
     -webkit-transform: rotatey(360deg);
     -o-transform: rotatey(360deg);
@@ -578,7 +574,7 @@ a.more {
     .home-social {
         margin: 0.9em 0 0;
     }
-    .home-social ul li a {
+    .home-social ul li {
         height: 22px;
         background-size: 118%;
     }

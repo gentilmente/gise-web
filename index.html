@@ -29,14 +29,10 @@
               </a>
             </li>
             <li>
-              <a href="https://www.instagram.com/volareindumentaria/" target="_blank">
-                <i class="fab fa-instagram fa-2x"></i>
-              </a>
+              <i class="fab fa-instagram fa-2x"  onclick="socialSelector('insta')"></i>
             </li>
             <li>
-              <a href="fb://Volare-Indumentaria-Para-Entrenar-170668123303322/" target="_blank">
-                <i class="fab fa-facebook-f fa-2x"></i>
-              </a>
+              <i class="fab fa-facebook-f fa-2x" onclick="socialSelector('fb')"></i>
             </li>
           </ul>
         </div>
@@ -367,8 +363,8 @@
   <script src="https://use.fontawesome.com/releases/v5.0.2/js/all.js"></script>
 
   <!-- email.js -->
-  <script type="text/javascript" src="https://cdn.emailjs.com/dist/email.min.js"></script>
-  <script type="text/javascript">
+  <script src="https://cdn.emailjs.com/dist/email.min.js"></script>
+  <script>
     (function () {
       emailjs.init("user_uxSBgp47fOtfj5HMBjzl5");
     })();
@@ -376,7 +372,7 @@
   <!-- //email.js -->
 
   <!-- smooth-scrolling-of-move-up -->
-  <script type="text/javascript">
+  <script>
     $(document).ready(function () {
       $().UItoTop({
         easingType: 'easeOutQuart'
@@ -386,9 +382,9 @@
   <!-- //smooth-scrolling-of-move-up -->
 
   <!-- smoth-scrolling -->
-  <script type="text/javascript" src="js/move-top.js"></script>
-  <script type="text/javascript" src="js/easing.js"></script>
-  <script type="text/javascript">
+  <script src="js/move-top.js"></script>
+  <script src="js/easing.js"></script>
+  <script>
     jQuery(document).ready(function ($) {
       $(".scroll").click(function (event) {
         event.preventDefault();
@@ -402,7 +398,7 @@
 
   <!-- unslider -->
   <script src="js/unslider.js"></script>
-  <script type="text/javascript">
+  <script>
     jQuery(document).ready(function ($) {
       $('.slider').unslider({
         autoplay: true,
@@ -416,7 +412,7 @@
 
   <script src="js/sendmail.js"></script>
   <script src="js/validate.js"></script>
-
+  <script src="js/social-links.js"></script>
 
   <!-- captcha -->
   <script defer src="https://www.google.com/recaptcha/api.js?onload=loadCaptcha&render=explicit"></script>
@@ -430,7 +426,6 @@
         'callback': function (response) {
           captcha.innerHTML =
             "<button id ='send-button' type='button' onCLick= 'submit()'>Enviar </button>";
-          //"<input type='submit' id='send-button' onCLick= 'submit()' value='Enviar'>";
         }
       });
     };
