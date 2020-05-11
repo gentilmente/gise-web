@@ -22,12 +22,7 @@ body a {
     text-decoration: none;
 }
 
-h1,
-h2,
-h3,
-h4,
-h5,
-h6 {
+h1, h2, h3, h4, h5, h6 {
     margin: 0;
 }
 
@@ -35,8 +30,7 @@ p {
     margin: 0;
 }
 
-ul,
-label {
+ul, label {
     margin: 0;
     padding: 0;
 }
@@ -121,7 +115,7 @@ a.more {
 /*--gallery--*/
 
 .gallery {
-    padding: 5em 0;
+    padding: 2em 0;
 }
 
 .gallery-grids-info.glry-left {
@@ -152,6 +146,11 @@ a.more {
     width: 81%;
 }
 
+.img-responsive {
+    width: auto;
+    height: auto;
+}
+
 /*--//gallery--*/
 
 /*-- contact --*/
@@ -170,8 +169,7 @@ a.more {
     border: 0;
 }
 
-.contact-textarea input[type="text"],
-.contact-textarea input[type="email"] {
+.contact-textarea input[type="text"], .contact-textarea input[type="email"] {
     width: 100%;
     color: rgba(137, 136, 136, 0.66);
     outline: none;
@@ -206,8 +204,7 @@ a.more {
     -ms-border-radius: 5px;
 }
 
-.contact-textarea button[type="button"],
-.contact-textarea input[type="reset"] {
+.contact-textarea button[type="button"], .contact-textarea input[type="reset"] {
     border: none;
     outline: none;
     color: #fff;
@@ -223,8 +220,7 @@ a.more {
     -ms-border-radius: 5px;
 }
 
-.contact-textarea button[type="button"]:hover,
-.contact-textarea input[type="reset"]:hover {
+.contact-textarea button[type="button"]:hover, .contact-textarea input[type="reset"]:hover {
     background: #70C291;
     transition: 0.5s all;
     -webkit-transition: 0.5s all;
@@ -233,8 +229,7 @@ a.more {
     -o-transition: 0.5s all;
 }
 
-#successmsg,
-#errormsg {
+#successmsg, #errormsg {
     border: 1px solid #fff;
     display: none;
     text-align: center;
@@ -244,8 +239,7 @@ a.more {
     margin-bottom: 30px;
 }
 
-#successmsg.show,
-.show {
+#successmsg.show, .show {
     display: block;
 }
 
@@ -321,8 +315,7 @@ a.more {
     .banner {
         min-height: 750px;
     }
-    .gallery,
-    .contact {
+    .gallery, .contact {
         padding: 4em 0;
     }
     h3.title {
@@ -339,8 +332,7 @@ a.more {
     .gallery-grids-info.glry-right p {
         width: 100%;
     }
-    .contact-textarea button[type="button"],
-    .contact-textarea input[type="reset"] {
+    .contact-textarea button[type="button"], .contact-textarea input[type="reset"] {
         width: 47.7%;
     }
 }
@@ -364,8 +356,7 @@ a.more {
     .bnr-text h4 {
         margin: 0.5em 0 1.5em;
     }
-    .gallery,
-    .contact {
+    .gallery, .contact {
         padding: 3em 0;
     }
     h3.title {
@@ -391,8 +382,7 @@ a.more {
         width: 50%;
         padding-right: 0;
     }
-    .contact-textarea button[type="button"],
-    .contact-textarea input[type="reset"] {
+    .contact-textarea button[type="button"], .contact-textarea input[type="reset"] {
         font-size: 15px;
         margin: 10px 2px 0 3px;
     }
@@ -425,8 +415,7 @@ a.more {
     .banner {
         min-height: 500px;
     }
-    .gallery,
-    .contact {
+    .gallery, .contact {
         padding: 2.5em 0;
     }
     .gallery-grids-info.glry-left {
@@ -459,13 +448,11 @@ a.more {
         min-height: 13em;
         padding: 11px 16px;
     }
-    .contact-textarea button[type="button"],
-    .contact-textarea input[type="reset"] {
+    .contact-textarea button[type="button"], .contact-textarea input[type="reset"] {
         font-size: 13px;
         padding: 10px 31px;
     }
-    .contact-textarea button[type="button"],
-    .contact-textarea input[type="reset"] {
+    .contact-textarea button[type="button"], .contact-textarea input[type="reset"] {
         width: 47%;
     }
     .contact-top-left iframe {
@@ -492,8 +479,7 @@ a.more {
     a.more {
         padding: 0.6em 1.2em;
     }
-    .gallery,
-    .contact {
+    .gallery, .contact {
         padding: 2em 0;
     }
     h3.title {
@@ -502,8 +488,7 @@ a.more {
     .gallery-grids-info.glry-btm {
         width: 50%;
     }
-    .gallery-grids-info.glry-right p,
-    .gallery-grids-info.glry-btm p {
+    .gallery-grids-info.glry-right p, .gallery-grids-info.glry-btm p {
         width: 66%;
     }
     .contact-top-left {
@@ -548,15 +533,13 @@ a.more {
     a.more {
         font-size: 0.9em;
     }
-    .gallery,
-    .contact {
+    .gallery, .contact {
         padding: 1.5em 0;
     }
     h3.title {
         font-size: 2em;
     }
-    .gallery-grids-info.glry-right p,
-    .gallery-grids-info.glry-btm p {
+    .gallery-grids-info.glry-right p, .gallery-grids-info.glry-btm p {
         width: 84%;
     }
     .contact-textarea input[type="text"] {

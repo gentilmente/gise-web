@@ -10,7 +10,7 @@ To do:
 - revizar porque en safari textarea arranca vacío
 - mejorar validate textarea
 - tamaños responsive gral
-- dominio
+- ~~dominio~~
 
 
 
