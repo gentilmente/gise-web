@@ -1,7 +1,7 @@
 function onSuccess(form) {
 
   $('#send-button').html("enviando...<i class='fas fa-spinner fa-spin'></i>");
-  emailjs.sendForm('volare_gmail', 'primer_contacto_volare', form).then(
+  emailjs.sendForm('volare', 'volare', form).then(
     function () {
       $("#successmsg").addClass("show");
       $('#send-button').html('¡Listo!');
