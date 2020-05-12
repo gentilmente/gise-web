@@ -56,8 +56,11 @@ body a:hover {
     background-color: rgba(121, 119, 119, 0.49);
 }
 
+.header .container {
+    margin: 0 0 0 5%;
+}
+
 .home-social {
-    /*display: inline-block;*/
     float: left;
     margin: 1em 0;
 }
@@ -86,20 +89,19 @@ body a:hover {
 
 .bnr-text {
     text-align: left;
-    margin: 40em 3em 0;
-    width: 50%;
+    margin: 43em 3em 0;
+    width: 80%;
 }
 
 .bnr-text h2 {
-    font-size: 3em;
+    font-size: em;
     color: #fff;
     font-family: 'Dancing', cursive;
 }
 
 .bnr-text h4 {
-    font-size: 3em;
+    font-size: 6em;
     color: #fff;
-    margin: 1em 0 1.5em;
     font-family: 'Dancing', cursive;
 }
 
@@ -322,7 +324,7 @@ a.more {
         font-size: 3.2em;
     }
     .bnr-text h4 {
-        font-size: 1.8em;
+        font-size: 4em;
     }
     .gallery-grids-info.glry-right p {
         width: 100%;
@@ -340,16 +342,14 @@ a.more {
         font-size: 3em;
     }
     .bnr-text {
-        margin: 3em 3em 0;
-        padding: 2em 0 5em;
-        width: 55%;
+        margin: 23em 0 1em 3em;
     }
     a.more {
         border: 2px solid #fff;
         padding: 0.8em 2em;
     }
     .bnr-text h4 {
-        margin: 0.5em 0 1.5em;
+        font-size: 3em;
     }
     .gallery, .contact {
         padding: 3em 0;
@@ -384,21 +384,20 @@ a.more {
 }
 
 @media(max-width:768px) {
-    .bnr-text {
-        padding: 2.5em 0 4em;
-        width: 70%;
-    }
     h3.title {
         font-size: 2.6em;
     }
 }
 
 @media(max-width:640px) {
+    .bnr-text {
+        margin: 20em 0 1em 1em;
+    }
     .bnr-text h2 {
         font-size: 2.8em;
     }
     .bnr-text h4 {
-        font-size: 1.6em;
+        font-size: 2.5em;
     }
     h3.title {
         font-size: 2.2em;
@@ -457,19 +456,16 @@ a.more {
 
 @media(max-width:480px) {
     .banner {
-        min-height: 425px;
-        background-position: -120px 0px;
+        min-height: auto;
     }
     .bnr-text {
-        padding: 0em;
-        width: 260px;
-        margin: 16em 1em 0em 2em;
+        margin: 16em 0 1em 1em;
     }
     .bnr-text h2 {
         font-size: 2.2em;
     }
     .bnr-text h4 {
-        font-size: 2.4em;
+        font-size: 1.8em;
     }
     a.more {
         padding: 0.6em 1.2em;
@@ -514,9 +510,7 @@ a.more {
         background-position: -40px 0px;
     }
     .bnr-text {
-        width: 92%;
-        padding: 0em;
-        margin: 14em auto 0;
+        margin: 14em 0 0 0;
     }
     .bnr-text h2 {
         font-size: 1.8em;
