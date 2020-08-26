@@ -8,12 +8,6 @@
     src: url("../fonts/Overlock-Regular.ttf")
 }
 
-body {
-    /*display: grid;*/
-    margin: 0;
-    font-family: 'Overlock';
-}
-
 body a {
     transition: 0.5s all ease;
     -webkit-transition: 0.5s all ease;
@@ -23,45 +17,17 @@ body a {
     text-decoration: none;
 }
 
-p, h1, h2, h3, h4, h5, h6 {
-    margin: 0;
-}
-
-ul, label {
-    margin: 0;
-    padding: 0;
-}
-
 body a:hover {
     text-decoration: none;
 }
 
 /*--header--*/
 
-.header {
-    padding: .8em 0;
+.hero .navbar {
     background-color: rgba(121, 119, 119, 0.49);
 }
 
-.header .container {
-    margin: 0 0 0 5%;
-}
-
-.home-social {
-    float: left;
-    margin: 1em 0;
-}
-
-.home-social ul li, .home-social ul li a {
-    display: inline-block;
-    margin-right: 25px;
-    color: #fff;
-    width: 25px;
-    height: 25px;
-    transition: none;
-}
-
-.home-social ul li:hover {
+.navbar-item:hover {
     transform: rotatey(360deg);
     -webkit-transform: rotatey(360deg);
     -o-transform: rotatey(360deg);
@@ -72,18 +38,6 @@ body a:hover {
     -moz-transition: 0.5s all ease;
     -o-transition: 0.5s all ease;
     -ms-transition: 0.5s all ease;
-}
-
-.bnr-text {
-    text-align: left;
-    margin: 43em 3em 0;
-    width: 80%;
-}
-
-.bnr-text h2 {
-    font-size: em;
-    color: #fff;
-    font-family: 'Dancing', cursive;
 }
 
 .bnr-text h4 {
@@ -262,14 +216,6 @@ a.more {
 @media(max-width:1080px) {
     .contact {
         padding: 4em 0;
-    }
-    h3.title {
-        font-family: 'Overlock', regular;
-        font-size: 3.5em;
-        margin-bottom: 0.8em;
-    }
-    .bnr-text h2 {
-        font-size: 3.2em;
     }
     .bnr-text h4 {
         font-size: 4em;
