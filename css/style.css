@@ -9,6 +9,7 @@
 }
 
 body {
+    /*display: grid;*/
     margin: 0;
     font-family: 'Overlock';
 }
@@ -22,11 +23,7 @@ body a {
     text-decoration: none;
 }
 
-h1, h2, h3, h4, h5, h6 {
-    margin: 0;
-}
-
-p {
+p, h1, h2, h3, h4, h5, h6 {
     margin: 0;
 }
 
@@ -37,16 +34,6 @@ ul, label {
 
 body a:hover {
     text-decoration: none;
-}
-
-.banner {
-    background: url(../images/banner.jpg) no-repeat 0px 0px;
-    background-size: cover;
-    -webkit-background-size: cover;
-    -o-background-size: cover;
-    -ms-background-size: cover;
-    min-height: 1200px;
-    position: relative;
 }
 
 /*--header--*/
@@ -113,42 +100,6 @@ a.more {
 }
 
 /*--//header--*/
-
-/*--gallery--*/
-
-.gallery {
-    padding: 2em 0;
-}
-
-.gallery-grids-info.glry-left {
-    width: 58.24%;
-    float: left;
-}
-
-.gallery-grids-info.glry-right {
-    float: right;
-    width: 41.76%;
-}
-
-.gallery-grids-info {
-    padding: 0;
-}
-
-.gallery-grids-info img {
-    width: 100%;
-}
-
-.gallery a {
-    overflow: hidden;
-    position: relative;
-    display: block;
-}
-
-.gallery-grids-info.glry-btm p {
-    width: 81%;
-}
-
-/*--//gallery--*/
 
 /*-- contact --*/
 
@@ -309,10 +260,7 @@ a.more {
 /*---- responsive-design -----*/
 
 @media(max-width:1080px) {
-    .banner {
-        min-height: 750px;
-    }
-    .gallery, .contact {
+    .contact {
         padding: 4em 0;
     }
     h3.title {
@@ -326,18 +274,12 @@ a.more {
     .bnr-text h4 {
         font-size: 4em;
     }
-    .gallery-grids-info.glry-right p {
-        width: 100%;
-    }
     .contact-textarea button[type="button"], .contact-textarea input[type="reset"] {
         width: 47.7%;
     }
 }
 
 @media(max-width:991px) {
-    .banner {
-        min-height: 550px;
-    }
     .bnr-text h2 {
         font-size: 3em;
     }
@@ -351,21 +293,11 @@ a.more {
     .bnr-text h4 {
         font-size: 3em;
     }
-    .gallery, .contact {
+    .contact {
         padding: 3em 0;
     }
     h3.title {
         margin-bottom: 0.8em;
-    }
-    .gallery-grids-info.glry-left {
-        width: 58.2%;
-    }
-    .gallery-grids-info.glry-right {
-        width: 41.75%;
-    }
-    .gallery-grids-info.glry-btm {
-        float: left;
-        width: 32%;
     }
     .contact-top-left {
         float: left;
@@ -406,30 +338,9 @@ a.more {
         border: 1px solid #fff;
         padding: 0.8em 1.5em;
     }
-    .banner {
-        min-height: 500px;
-    }
-    .gallery, .contact {
+    .contact {
         padding: 2.5em 0;
     }
-    .gallery-grids-info.glry-left {
-        width: 58.25%;
-    }
-    .gallery-grids-info.glry-right {
-        width: 41.75%;
-    }
-    .gallery-grids-info.glry-right p {
-        width: 88%;
-    }
-    /*
-    .gallery-grids-info {
-        float: none;
-        width: 100%;
-    }
-    .gallery-grids-info.glry-btm p {
-        width: 95%;
-    }
-    */
     .contact-textarea input[type="text"] {
         font-size: .9em;
         padding: 11px 16px;
@@ -455,9 +366,6 @@ a.more {
 }
 
 @media(max-width:480px) {
-    .banner {
-        min-height: auto;
-    }
     .bnr-text {
         margin: 16em 0 1em 1em;
     }
@@ -470,17 +378,11 @@ a.more {
     a.more {
         padding: 0.6em 1.2em;
     }
-    .gallery, .contact {
+    .contact {
         padding: 2em 0;
     }
     h3.title {
         margin-bottom: 0.6em;
-    }
-    .gallery-grids-info.glry-btm {
-        width: 50%;
-    }
-    .gallery-grids-info.glry-right p, .gallery-grids-info.glry-btm p {
-        width: 66%;
     }
     .contact-top-left {
         float: none;
@@ -505,10 +407,6 @@ a.more {
 }
 
 @media(max-width:320px) {
-    .banner {
-        min-height: 350px;
-        background-position: -40px 0px;
-    }
     .bnr-text {
         margin: 14em 0 0 0;
     }
@@ -522,13 +420,13 @@ a.more {
     a.more {
         font-size: 0.9em;
     }
-    .gallery, .contact {
+    .contact {
         padding: 1.5em 0;
     }
     h3.title {
         font-size: 2em;
     }
-    .gallery-grids-info.glry-right p, .gallery-grids-info.glry-btm p {
+    p {
         width: 84%;
     }
     .contact-textarea input[type="text"] {
