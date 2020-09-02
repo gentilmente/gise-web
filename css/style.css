@@ -70,66 +70,6 @@ body a:hover {
     margin-top: 4%;
 }
 
-.contact-textarea input[type="text"], .contact-textarea input[type="email"] {
-    width: 100%;
-    color: rgba(137, 136, 136, 0.66);
-    outline: none;
-    font-size: 14px;
-    padding: 18px 16px;
-    border: none;
-    margin-bottom: 1em;
-    -webkit-appearance: none;
-    background: none;
-    border: 1px solid rgba(153, 153, 153, 0.35);
-    border-radius: 0.3em;
-    -webkit-border-radius: 0.3em;
-    -o-border-radius: 0.3em;
-    -ms-border-radius: 0.3em;
-}
-
-.contact-textarea textarea {
-    resize: none;
-    width: 100%;
-    color: rgba(137, 136, 136, 0.66);
-    font-size: 14px;
-    outline: none;
-    padding: 18px 16px;
-    border: none;
-    min-height: 15em;
-    -webkit-appearance: none;
-    background: none;
-    border: 1px solid rgba(153, 153, 153, 0.35);
-    border-radius: 5px;
-    -webkit-border-radius: 5px;
-    -o-border-radius: 5px;
-    -ms-border-radius: 5px;
-}
-
-.contact-textarea button[type="button"] {
-    border: none;
-    outline: none;
-    color: #fff;
-    background: #19B0A9;
-    width: 48%;
-    padding: 15px 31px;
-    font-size: 18px;
-    margin: 10px 2px 0px 6px;
-    -webkit-appearance: none;
-    border-radius: 5px;
-    -webkit-border-radius: 5px;
-    -o-border-radius: 5px;
-    -ms-border-radius: 5px;
-}
-
-.contact-textarea button[type="button"]:hover {
-    background: #70C291;
-    transition: 0.5s all;
-    -webkit-transition: 0.5s all;
-    -moz-transition: 0.5s all;
-    -ms-transition: 0.5s all;
-    -o-transition: 0.5s all;
-}
-
 #successmsg {
     border: 1px solid #fff;
     display: none;
@@ -140,6 +80,9 @@ body a:hover {
     margin-bottom: 30px;
 }
 
+#successmsg.show, .show {
+    display: block;
+}
 /*-- //contact --*/
 
 /*----copy-right----*/
@@ -210,9 +153,6 @@ body a:hover {
     .bnr-text h4 {
         font-size: 4em;
     }
-    .contact-textarea button[type="button"] {
-        width: 47.7%;
-    }
 }
 
 @media(max-width:991px) {
@@ -228,10 +168,6 @@ body a:hover {
     }
     h3.title {
         margin-bottom: 0.8em;
-    }
-    .contact-textarea button[type="button"] {
-        font-size: 15px;
-        margin: 10px 2px 0 3px;
     }
 }
 
@@ -254,25 +190,6 @@ body a:hover {
 
     .contact {
         padding: 2.5em 0;
-    }
-    .contact-textarea input[type="text"] {
-        font-size: .9em;
-        padding: 11px 16px;
-    }
-    .contact-textarea input[type="email"] {
-        font-size: .9em;
-        padding: 11px 16px;
-    }
-    .contact-textarea textarea {
-        min-height: 13em;
-        padding: 11px 16px;
-    }
-    .contact-textarea button[type="button"] {
-        font-size: 13px;
-        padding: 10px 31px;
-    }
-    .contact-textarea button[type="button"] {
-        width: 47%;
     }
 }
 
@@ -314,18 +231,6 @@ body a:hover {
     }
     p {
         width: 84%;
-    }
-    .contact-textarea input[type="text"] {
-        font-size: .9em;
-        padding: 9px 16px;
-    }
-    .contact-textarea input[type="email"] {
-        font-size: .9em;
-        padding: 9px 16px;
-    }
-    .contact-textarea textarea {
-        min-height: 10em;
-        padding: 11px 16px;
     }
 }
 

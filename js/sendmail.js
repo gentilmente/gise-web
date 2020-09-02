@@ -4,7 +4,7 @@ function onSuccess(form) {
   emailjs.sendForm('volare', 'volare', form).then(
     function () {
       $("#successmsg").addClass("show");
-      $('#send-button').html('¡Listo!');
+      $('#send-button').html('¡Listo!').addClass("is-success");
       $('#send-button').prop('disabled', true);
     },
     function (error) {
