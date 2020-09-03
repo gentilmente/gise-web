@@ -8,8 +8,8 @@ To do:
 - ~~boton o loader "enviando"~~
 - ~~boton enviar, no se inhabilita~~
 - revizar porque en safari textarea arranca vacío
-- mejorar validate textarea
-- tamaños responsive gral
+- ~~mejorar validate textarea
+- ~~tamaños responsive gral
 - ~~dominio~~
 
 
